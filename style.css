@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(227, 180, 210);
+    z-index: 100;
+    width: 100vw;
+}
+.navbar a:hover{
+    color: rgb(195, 33, 184)!important;
+    text-shadow: 0px 0 15px rgb(195, 33, 184);
+}
+.shad-box{
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+
+.shad-box:hover {
+    box-shadow: 0 8px 19px 0 rgba(0,0,0,0.2);
+}
+.box-khati{
+    display: none; 
+    height: 189px;
+    width: 287px;
+    border-radius: 12px;
+    position: relative;
+    top: -189px;
+    background-color: #e9d3e1;
+    padding: 20px;
+    display: none;
+
+}
+.center{
+    align-items: center;
+    text-align: center;
+}
+.btn-sellers{
+    height: 34px;
+    width: 210px;
+    background-color: none;
+border: 2px solid rgb(216, 125, 184);
+border-radius: 47px;
+color: rgb(216, 125, 184);
+background: none;
+font-weight: 690;
+}
+.btn-New{
+    height: 34px;
+    width: 210px;
+    background-color: none;
+border: 2px solid rgb(216, 125, 184);
+border-radius: 47px;
+color: rgb(216, 125, 184);
+background: none;
+font-weight: 690; 
+}
+.btn-Suggestions{
+    height: 34px;
+    width: 210px;
+    background-color: none;
+border: 2px solid rgb(216, 125, 184);
+border-radius: 47px;
+color: rgb(216, 125, 184);
+background: none;
+font-weight: 690; 
+}
+.btn-New:hover{
+    background-color: rgb(141, 42, 234);
+    color: white;
+    border: 1px solid rgb(141, 42, 234);
+    box-shadow: 0 2px 10px 0px rgb(141, 42, 234);
+}
+.btn-sellers:hover{
+    background-color: rgb(141, 42, 234);
+    color: white;
+    border: 1px solid rgb(141, 42, 234);
+    box-shadow: 0 2px 10px 0px rgb(141, 42, 234);
+}  
+.btn-Suggestions:hover{
+    background-color: rgb(141, 42, 234);
+    color: white;
+    border: 1px solid rgb(141, 42, 234);
+    box-shadow: 0 2px 10px 0px rgb(141, 42, 234);
+
+}
+.box-sefid1{
+    background-color:white;
+    height: 355px;
+    width: 375px;
+}
+.box-sefid2{
+    background-color:white;
+    height:355px;
+    width: 375px;
+}
+.box-sefid3{
+    background-color:  white;
+    height: 355px;
+    width: 375px;
+}
+.box-sefid4{
+    background-color:  white;
+    height: 355px;
+    width: 375px;
+}
+.img-b1{
+    height: 355px;
+    width: 375px;
+
+    
+}
+.img-b2{
+    height: 355px;
+    width: 375px;
+  
+  
+}
+.img-b3{
+    height: 355px;
+    width: 375px;
+}
+.img-b4{
+    height: 355px;
+    width: 375px;
+}
+
+    .image-container3{
+        transition: background-color 0.9s, transform 0.5s;
+    }
+    .image-container3:hover{
+        transform: scale(.97); 
+    }
+
+.question:hover{
+    background-color: rgb(142, 61, 230)!important;
+    font-weight: 600;
+    color: white;
+   
+}
+
+    .box-sabz{
+        height:519px;
+        width: 340px;
+        border: 1px solid rgb(219, 157, 205);
+        border-radius: 12px;
+        box-shadow: 0 2px 12px 16px rgb(166, 117, 150);
+       
+    }
+    .image-container{
+        transition: background-color 0.2s, transform 0.8s;
+    }
+    .image-container:hover{
+        transform: scale(1.1); 
+    }
+    .image-container2 {
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.5s, transform 0.8s;
+    }
+    .image-container2:hover {
+   
+        transform: scale(1.1); 
+    }
+    .image-container4 {
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.5s, transform 0.8s;
+    }
+    .image-container4:hover {
+   
+        transform: scale(1.7); 
+    }
+    .center1{
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* .faq-section .accordion .question i {
+    transition: .4s ease-in-out;
+    }
+    .question-title{
+        color: black!important;
+    }
+    .question-title-active {
+    color: #2186eb!important;
+    }
+    
+    .question-title-active i {
+    transform: rotate(-90deg)!important;
+    }
+    
+    .faq-section .accordion .question-open {
+    max-height: 320px!important;
+    transition: all 1s ease-in-out!important;
+    }
+
+
+
+
+
+    .question {
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-bottom: none!important;
+    }
+
+    .question.active {
+        background-color: #f146bb!important;
+    }
+
+    .question p {
+        display: none!important;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        margin-top: 0;
+    }
+
+    .question.active p {
+        display: block!important;
+    } */
+
+
+
+
+
+
+
+
+.vst{
+    align-items: center;
+    text-align: center;
+}
+.btn-base:hover{
+    background-color: rgb(176, 37, 97)!important;
+    color: white!important;
+    border: 1px solid rgb(176, 37, 97)!important;
+}
+
+.box-blck{
+    height: 390px;
+    width: 100vw;
+    background-color:  rgb(83, 40, 68);
+}
+.box-grey{
+    height: 90px!important;
+    width: 99.1vw;
+    background-color: rgba(210, 167, 224, 0.973)!important;
+}
+input{
+    height: 35px;
+    width: 230px;
+    border: 1px solid rgb(246, 243, 243);
+    background-color: rgb(246, 238, 242);
+}
+.gol{
+    color: white
+    ;
+}
+.gol:hover{
+    color: rgb(93, 202, 66);
+    cursor: pointer;
+}
+.paph{
+    color: rgb(236, 196, 17);
+  
+
+
+}
+.fte{
+    height: 23px;
+}
+.box-grey{
+    height: 160px;
+    width: 99.1vw;
+    background-color: rgba(82, 76, 76, 0.74);
+}
+.hott{
+    color: white;
+    font-size: 28px;
+    font-weight: 880;
+
+}
+.hot{
+    color: white;
+    font-size: 28px;
+    font-weight: 880;
+}
+.dc{
+    border-radius: 50%;
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+}
+/* .dc:hover{
+    background-color: rgb(224, 198, 49);
+} */
+ .hovr:hover{
+    background-color: rgb(61, 75, 233);
+} 
+.hovr1:hover{
+    background-color: rgb(39, 74, 149);
+} 
+.hovr2:hover{
+    background-color: rgb(217, 67, 25);
+} 
+.hovr3:hover{
+    background-color: rgb(230, 7, 148);
+} 
+.tw-0{
+    position: relative;
+    left: -6px;
+}
+.tw-1{
+height: 35px!important;
+position: relative;
+left: -7px;
+top: -3px;
+}
+.tw-2{
+    height: 40px!important;
+    position: relative;
+    left: -7px;
+    top: -5px;
+    }
+    .tw-3{
+        height: 40px!important;
+        position: relative;
+        left: -10px;
+        top: -5px;
+        }
